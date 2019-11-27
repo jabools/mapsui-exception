@@ -1,0 +1,58 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "/Users/szymon/Projects/test_map/test_map/test_map.csproj",
+    "projectName": "test_map",
+    "projectPath": "/Users/szymon/Projects/test_map/test_map/test_map.csproj",
+    "outputPath": "/Users/szymon/Projects/test_map/test_map/obj/",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netstandard2.0"
+    ],
+    "sources": {
+      "https://api.nuget.org/v3/index.json": {}
+    },
+    "frameworks": {
+      "netstandard2.0": {
+        "projectReferences": {}
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netstandard2.0": {
+      "dependencies": {
+        "Mapsui.Forms": {
+          "target": "Package",
+          "version": "[2.0.0-beta.30, )"
+        },
+        "NETStandard.Library": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.0.3, )",
+          "autoReferenced": true
+        },
+        "Xamarin.Essentials": {
+          "target": "Package",
+          "version": "[1.3.1, )"
+        },
+        "Xamarin.Forms": {
+          "target": "Package",
+          "version": "[4.3.0.991211, )"
+        }
+      },
+      "imports": [
+        "net461"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}

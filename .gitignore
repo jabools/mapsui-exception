@@ -1,0 +1,9 @@
+/.idea
+/.vs
+/[bB]in
+/[Oo]bj
+
+/test_map.Android/[Bb]in
+/test_map.Android/[Oo]bj
+/test_map.iOS/[Bb]in
+/test_map.iOS/[Oo]bj
